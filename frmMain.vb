@@ -2,24 +2,21 @@
     Private roll As Integer = 0
     '
     Dim diceButtons As New List(Of Button)
-    'Dim diceButtons(4) As Button
-
     Private Sub btnRoll_Click(sender As Object, e As EventArgs) Handles btnRoll.Click
 
         ' Initialize the random-number generator.
         Randomize()
 
         roll += 1
-        MessageBox.Show("diceButtons is " & diceButtons.Count & " item is " & diceButtons.Item(0).ToString)
+        'MessageBox.Show("diceButtons is " & diceButtons.Count & " item is " & diceButtons.Item(0).ToString)
         For i = 0 To 4
-            MessageBox.Show("Loop " & i)
+            'MessageBox.Show("Loop " & i)
             If diceButtons(i).Enabled = True Then
                 ' diceButtons.Item(i).Enabled = True
-                diceButtons.Item(i).Text = "1"
+                diceButtons.Item(i).Text = Int((5 * Rnd()) + 1)
+                diceButtons(i).Enabled = False
             End If
         Next
-
-
     End Sub
 
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load

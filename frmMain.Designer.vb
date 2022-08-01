@@ -155,7 +155,7 @@ Partial Class frmMain
         '
         'btnRoll
         '
-        Me.btnRoll.Location = New System.Drawing.Point(216, 480)
+        Me.btnRoll.Location = New System.Drawing.Point(208, 472)
         Me.btnRoll.Name = "btnRoll"
         Me.btnRoll.Size = New System.Drawing.Size(112, 40)
         Me.btnRoll.TabIndex = 1
@@ -584,7 +584,7 @@ Partial Class frmMain
         Me.gbLower.Controls.Add(Me.lbl4Kind)
         Me.gbLower.Location = New System.Drawing.Point(280, 32)
         Me.gbLower.Name = "gbLower"
-        Me.gbLower.Size = New System.Drawing.Size(272, 344)
+        Me.gbLower.Size = New System.Drawing.Size(272, 336)
         Me.gbLower.TabIndex = 46
         Me.gbLower.TabStop = False
         Me.gbLower.Text = "Lower Section"
@@ -969,7 +969,6 @@ Partial Class frmMain
         '
         'btnDice2
         '
-        Me.btnDice2.Enabled = False
         Me.btnDice2.Location = New System.Drawing.Point(88, 8)
         Me.btnDice2.Name = "btnDice2"
         Me.btnDice2.Size = New System.Drawing.Size(48, 56)
@@ -978,7 +977,6 @@ Partial Class frmMain
         '
         'btnDice3
         '
-        Me.btnDice3.Enabled = False
         Me.btnDice3.Location = New System.Drawing.Point(152, 8)
         Me.btnDice3.Name = "btnDice3"
         Me.btnDice3.Size = New System.Drawing.Size(48, 56)
@@ -987,7 +985,6 @@ Partial Class frmMain
         '
         'btnDice4
         '
-        Me.btnDice4.Enabled = False
         Me.btnDice4.Location = New System.Drawing.Point(216, 8)
         Me.btnDice4.Name = "btnDice4"
         Me.btnDice4.Size = New System.Drawing.Size(48, 56)
@@ -996,7 +993,6 @@ Partial Class frmMain
         '
         'btnDice5
         '
-        Me.btnDice5.Enabled = False
         Me.btnDice5.Location = New System.Drawing.Point(280, 8)
         Me.btnDice5.Name = "btnDice5"
         Me.btnDice5.Size = New System.Drawing.Size(48, 56)
@@ -1010,7 +1006,7 @@ Partial Class frmMain
         Me.pnlDicePanel.Controls.Add(Me.btnDice1)
         Me.pnlDicePanel.Controls.Add(Me.btnDice4)
         Me.pnlDicePanel.Controls.Add(Me.btnDice2)
-        Me.pnlDicePanel.Location = New System.Drawing.Point(96, 392)
+        Me.pnlDicePanel.Location = New System.Drawing.Point(104, 384)
         Me.pnlDicePanel.Name = "pnlDicePanel"
         Me.pnlDicePanel.Size = New System.Drawing.Size(352, 72)
         Me.pnlDicePanel.TabIndex = 52
@@ -1019,7 +1015,7 @@ Partial Class frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(560, 529)
+        Me.ClientSize = New System.Drawing.Size(560, 540)
         Me.Controls.Add(Me.pnlDicePanel)
         Me.Controls.Add(Me.gbLower)
         Me.Controls.Add(Me.gbUpper)
